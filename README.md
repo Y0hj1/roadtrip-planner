@@ -23,7 +23,6 @@
 ### Управление маршрутами (CRUD)
 ![Управление маршрутами](docs/screenshots/04-manage-routes.png)
 
-> 💡 Скриншоты можно добавить в папку `docs/screenshots/`. Имена файлов: `01-landing.png`, `02-routes-catalog.png`, `03-route-details.png`, `04-manage-routes.png`.
 
 ---
 
