@@ -1,0 +1,31 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top left, rgba(25,118,210,0.10), transparent 45%),
+    radial-gradient(circle at top right, rgba(76,175,80,0.10), transparent 40%),
+    radial-gradient(circle at bottom left, rgba(255,193,7,0.10), transparent 40%),
+    #f8fafc;
+}
+
+/* Небольшая анимация для landing page */
+@keyframes drive {
+  0% {
+    transform: translateX(-12px);
+  }
+  50% {
+    transform: translateX(12px);
+  }
+  100% {
+    transform: translateX(-12px);
+  }
+}
+
+.landing-car {
+  display: inline-block;
+  animation: drive 2.4s ease-in-out infinite;
+}

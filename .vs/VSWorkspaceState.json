@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\providers",
+    "\\src\\features",
+    "\\src\\features\\reviews",
+    "\\src\\features\\reviews\\hooks",
+    "\\src\\pages",
+    "\\src\\shared",
+    "\\src\\shared\\utils"
+  ],
+  "SelectedNode": "\\src\\pages\\RoutesPage.tsx",
+  "PreviewInSolutionExplorer": false
+}

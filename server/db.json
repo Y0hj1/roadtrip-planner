@@ -1,0 +1,421 @@
+{
+  "routes": [
+    {
+      "id": "1",
+      "title": "Москва — Казань по М-7",
+      "fromCity": "Москва",
+      "toCity": "Казань",
+      "distanceKm": 815,
+      "durationHours": 11,
+      "seasons": [
+        "summer",
+        "winter"
+      ],
+      "sceneryScore": 3,
+      "highlights": [
+        "Владимир (Золотые ворота)",
+        "Нижний Новгород (Кремль)",
+        "Остров-град Свияжск"
+      ],
+      "tags": {
+        "goodRoad": true,
+        "tollRoad": false,
+        "hasMotels": true,
+        "hasGasStations": true
+      },
+      "avgRating": 4.3,
+      "description": "Классический маршрут по М-7. Много заправок и кафе, местами загружено. Отлично подходит, если хочется совместить дорогу и пару остановок в исторических городах.",
+      "createdAt": "2026-01-01T10:00:00.000Z",
+      "coverImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Kazan_Kremlin_-_panoramio_%288%29.jpg?width=1400",
+      "coverCredit": "Keith Ruffles / Wikimedia Commons"
+    },
+    {
+      "id": "2",
+      "title": "СПб — Москва по М-11 (платная)",
+      "fromCity": "Санкт-Петербург",
+      "toCity": "Москва",
+      "distanceKm": 705,
+      "durationHours": 8,
+      "seasons": [
+        "summer",
+        "winter"
+      ],
+      "sceneryScore": 2,
+      "highlights": [
+        "Валдай (озёра и монастырь)",
+        "Торжок (пушкинские места)",
+        "Тверь (набережная Волги)"
+      ],
+      "tags": {
+        "goodRoad": true,
+        "tollRoad": true,
+        "hasMotels": true,
+        "hasGasStations": true
+      },
+      "avgRating": 4.7,
+      "description": "Быстро и комфортно, но платно. Хорошее покрытие, понятные съезды, удобно для поездки одним днём. Для мини-туризма можно сделать остановку на Валдае.",
+      "createdAt": "2026-01-02T12:00:00.000Z",
+      "coverImage": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9C-11_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3.jpg?width=1400",
+      "coverCredit": "Abrudenko / Wikimedia Commons"
+    },
+    {
+      "id": "3",
+      "title": "Екатеринбург — Тюмень",
+      "fromCity": "Екатеринбург",
+      "toCity": "Тюмень",
+      "distanceKm": 330,
+      "durationHours": 4,
+      "seasons": [
+        "summer",
+        "winter"
+      ],
+      "sceneryScore": 2,
+      "highlights": [
+        "Камышлов (купеческий центр)",
+        "Небольшие озёра по дороге",
+        "Термальные источники под Тюменью"
+      ],
+      "tags": {
+        "goodRoad": true,
+        "tollRoad": false,
+        "hasMotels": false,
+        "hasGasStations": true
+      },
+      "avgRating": 4.1,
+      "description": "Короткий маршрут: заправок достаточно, мотелей немного. Если планируешь отдых — удобно совместить с тюменскими термами.",
+      "createdAt": "2026-01-03T08:30:00.000Z",
+      "coverImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Tura_embankment_in_Tyumen_2023-06_1687977344.JPG?width=1400",
+      "coverCredit": "Artem Svetlov / Wikimedia Commons"
+    },
+    {
+      "id": "4",
+      "title": "Карелия: Петрозаводск — Рускеала — Сортавала",
+      "fromCity": "Петрозаводск",
+      "toCity": "Сортавала",
+      "distanceKm": 260,
+      "durationHours": 4.5,
+      "seasons": [
+        "summer"
+      ],
+      "sceneryScore": 5,
+      "highlights": [
+        "Водопады Ахвенкоски",
+        "Горный парк «Рускеала»",
+        "Ладожские шхеры"
+      ],
+      "tags": {
+        "goodRoad": true,
+        "tollRoad": false,
+        "hasMotels": true,
+        "hasGasStations": true
+      },
+      "avgRating": 4.8,
+      "description": "Один из самых популярных туристических маршрутов на северо-западе. По пути — природа, водопады и Рускеала. Зимой красиво, но закладывай запас времени.",
+      "createdAt": "2026-01-03T14:15:00.000Z",
+      "coverImage": "https://avatars.mds.yandex.net/i?id=7d37a817c08beacec3ecb3af04baf0ee_l-5304681-images-thumbs&n=13",
+      "coverCredit": "Wikimedia Commons"
+    },
+    {
+      "id": "5",
+      "title": "Русский Север: Мурманск — Териберка",
+      "fromCity": "Мурманск",
+      "toCity": "Териберка",
+      "distanceKm": 120,
+      "durationHours": 2.2,
+      "seasons": [
+        "winter",
+        "summer"
+      ],
+      "sceneryScore": 5,
+      "highlights": [
+        "Берег Баренцева моря",
+        "Кладбище кораблей",
+        "Охота за северным сиянием (зимой)"
+      ],
+      "tags": {
+        "goodRoad": false,
+        "tollRoad": false,
+        "hasMotels": false,
+        "hasGasStations": true
+      },
+      "avgRating": 4.6,
+      "description": "Коротко по километражу, но очень «вау» по впечатлениям. В зимний сезон важна погода и видимость — проверяй прогноз и состояние дороги.",
+      "createdAt": "2026-01-04T09:00:00.000Z",
+      "coverImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Stone_beach_near_Teriberka.jpg?width=1400",
+      "coverCredit": "Wikimedia Commons"
+    },
+    {
+      "id": "6",
+      "title": "Байкал: Иркутск — Листвянка — Хужир (Ольхон)",
+      "fromCity": "Иркутск",
+      "toCity": "Хужир",
+      "distanceKm": 320,
+      "durationHours": 5,
+      "seasons": [
+        "winter"
+      ],
+      "sceneryScore": 5,
+      "highlights": [
+        "Листвянка (набережная и Байкальский музей)",
+        "Смотровые площадки Байкала",
+        "Скала Шаманка на Ольхоне"
+      ],
+      "tags": {
+        "goodRoad": true,
+        "tollRoad": false,
+        "hasMotels": true,
+        "hasGasStations": true
+      },
+      "avgRating": 4.9,
+      "description": "Маршрут для тех, кто хочет увидеть Байкал «по-настоящему». Летом — переправа и пляжи, зимой — лёд и невероятные виды.",
+      "createdAt": "2026-01-04T11:30:00.000Z",
+      "coverImage": "https://commons.wikimedia.org/wiki/Special:FilePath/20170306_Lake_Baikal_Russia.jpg?width=1400",
+      "coverCredit": "Wikimedia Commons"
+    },
+    {
+      "id": "7",
+      "title": "Алтай: Чуйский тракт (Бийск — Кош-Агач)",
+      "fromCity": "Бийск",
+      "toCity": "Кош-Агач",
+      "distanceKm": 670,
+      "durationHours": 10,
+      "seasons": [
+        "summer"
+      ],
+      "sceneryScore": 5,
+      "highlights": [
+        "Река Катунь",
+        "Перевал Чике-Таман",
+        "Гейзерное озеро"
+      ],
+      "tags": {
+        "goodRoad": true,
+        "tollRoad": false,
+        "hasMotels": true,
+        "hasGasStations": true
+      },
+      "avgRating": 4.8,
+      "description": "Один из самых живописных автомобильных маршрутов в России. Лучше ехать летом/в начале осени: погода стабильнее, больше остановок для фото.",
+      "createdAt": "2026-01-05T08:20:00.000Z",
+      "coverImage": "https://avatars.mds.yandex.net/i?id=4a06f997cf4f9a1fabb3e74ea6005f2f_l-8539554-images-thumbs&n=13",
+      "coverCredit": "Wikimedia Commons"
+    },
+    {
+      "id": "8",
+      "title": "Сочи — Красная Поляна",
+      "fromCity": "Сочи",
+      "toCity": "Красная Поляна",
+      "distanceKm": 70,
+      "durationHours": 1.5,
+      "seasons": [
+        "summer",
+        "winter"
+      ],
+      "sceneryScore": 4,
+      "highlights": [
+        "Олимпийский парк",
+        "Канатные дороги «Роза Хутор»",
+        "Горные водопады и тропы"
+      ],
+      "tags": {
+        "goodRoad": true,
+        "tollRoad": false,
+        "hasMotels": true,
+        "hasGasStations": true
+      },
+      "avgRating": 4.5,
+      "description": "Идеальный маршрут «море + горы». Зимой — лыжи, летом — трекинг и красивые виды. Дорога комфортная.",
+      "createdAt": "2026-01-05T13:10:00.000Z",
+      "coverImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Mountains_in_Krasnaya_Polyana.JPG?width=1400",
+      "coverCredit": "Wikimedia Commons"
+    },
+    {
+      "id": "9",
+      "title": "Балтика: Калининград — Куршская коса — Светлогорск",
+      "fromCity": "Калининград",
+      "toCity": "Светлогорск",
+      "distanceKm": 120,
+      "durationHours": 2.5,
+      "seasons": [
+        "summer"
+      ],
+      "sceneryScore": 4,
+      "highlights": [
+        "Зеленоградск (прогулка по променаду)",
+        "Куршская коса (дюны и лес)",
+        "Светлогорск (курортная архитектура)"
+      ],
+      "tags": {
+        "goodRoad": true,
+        "tollRoad": false,
+        "hasMotels": true,
+        "hasGasStations": true
+      },
+      "avgRating": 4.4,
+      "description": "Летний маршрут по Балтике: море, дюны и курортные города. В сезон лучше выезжать пораньше из-за трафика.",
+      "createdAt": "2026-01-06T10:00:00.000Z",
+      "coverImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Curonian_Spit_-_Forest_path_near_Muller_Height.jpg?width=1400",
+      "coverCredit": "Wikimedia Commons"
+    },
+    {
+      "id": "10",
+      "title": "Казань — Йошкар-Ола (в гости к «европейским» фасадам)",
+      "fromCity": "Казань",
+      "toCity": "Йошкар-Ола",
+      "distanceKm": 150,
+      "durationHours": 2.2,
+      "seasons": [
+        "summer",
+        "winter"
+      ],
+      "sceneryScore": 3,
+      "highlights": [
+        "Набережная Брюгге",
+        "Площадь Республики",
+        "Кафе с местной кухней"
+      ],
+      "tags": {
+        "goodRoad": true,
+        "tollRoad": false,
+        "hasMotels": false,
+        "hasGasStations": true
+      },
+      "avgRating": 4.2,
+      "description": "Короткая поездка на выходные: дорога простая, а город необычный по архитектуре. Можно ездить круглый год.",
+      "createdAt": "2026-01-06T12:40:00.000Z",
+      "coverImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Bryugge_Embankment.jpg?width=1400",
+      "coverCredit": "Gajmar / Wikimedia Commons"
+    },
+    {
+      "id": "11",
+      "title": "Золотое кольцо: Москва — Суздаль",
+      "fromCity": "Москва",
+      "toCity": "Суздаль",
+      "distanceKm": 220,
+      "durationHours": 3.5,
+      "seasons": [
+        "summer",
+        "winter"
+      ],
+      "sceneryScore": 4,
+      "highlights": [
+        "Сергиев Посад (Лавра)",
+        "Переславль-Залесский (Плещеево озеро)",
+        "Суздальские монастыри"
+      ],
+      "tags": {
+        "goodRoad": true,
+        "tollRoad": false,
+        "hasMotels": true,
+        "hasGasStations": true
+      },
+      "avgRating": 4.6,
+      "description": "Классика для короткого путешествия из Москвы: старинные города и уютные остановки. Зимой особенно атмосферно.",
+      "createdAt": "2026-01-07T08:10:00.000Z",
+      "coverImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Suzdal_Panorama_1281.jpg?width=1400",
+      "coverCredit": "Ludvig14 / Wikimedia Commons"
+    },
+    {
+      "id": "12",
+      "title": "Приморье: Владивосток — Находка — Ливадия",
+      "fromCity": "Владивосток",
+      "toCity": "Находка",
+      "distanceKm": 190,
+      "durationHours": 3,
+      "seasons": [
+        "summer"
+      ],
+      "sceneryScore": 4,
+      "highlights": [
+        "Морские виды по дороге",
+        "Пляж Ливадия",
+        "Смотровые площадки Приморья"
+      ],
+      "tags": {
+        "goodRoad": true,
+        "tollRoad": false,
+        "hasMotels": true,
+        "hasGasStations": true
+      },
+      "avgRating": 4.3,
+      "description": "Летняя поездка за морем: красивые виды, пляжи и короткая логистика. В сезон заранее бронируй жильё.",
+      "createdAt": "2026-01-07T12:00:00.000Z",
+      "coverImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Beach_near_Livadia.jpg?width=1400",
+      "coverCredit": "Wikimedia Commons"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "routeId": "4",
+      "author": "Алина",
+      "rating": 5,
+      "text": "Рускеала — просто восторг. Ехали зимой, красиво, но лучше выезжать пораньше и с запасом времени.",
+      "createdAt": "2026-01-08T09:10:00.000Z"
+    },
+    {
+      "id": "r2",
+      "routeId": "2",
+      "author": "Игорь",
+      "rating": 5,
+      "text": "М-11 реально топ: быстро, покрытие отличное. Платно, но экономит силы и время.",
+      "createdAt": "2026-01-08T10:40:00.000Z"
+    },
+    {
+      "id": "r3",
+      "routeId": "1",
+      "author": "Денис",
+      "rating": 4,
+      "text": "По М-7 норм, но местами трафик. Остановку в Нижнем обязательно советую.",
+      "createdAt": "2026-01-08T12:05:00.000Z"
+    },
+    {
+      "id": "r4",
+      "routeId": "6",
+      "author": "Мария",
+      "rating": 5,
+      "text": "Байкал зимой — космос. Листвянка понравилась, а Ольхон — must. Только аккуратно с погодой.",
+      "createdAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "r5",
+      "routeId": "7",
+      "author": "Сергей",
+      "rating": 5,
+      "text": "Чуйский тракт — самый красивый маршрут, который я ездил. Остановок для фото будет миллион.",
+      "createdAt": "2026-01-08T16:20:00.000Z"
+    },
+    {
+      "id": "r6",
+      "routeId": "5",
+      "author": "Ольга",
+      "rating": 4,
+      "text": "Териберка впечатляет, но дорога зависит от погоды. Ветер и снег могут усложнить поездку.",
+      "createdAt": "2026-01-08T18:05:00.000Z"
+    },
+    {
+      "id": "r7",
+      "routeId": "11",
+      "author": "Кирилл",
+      "rating": 5,
+      "text": "Суздаль зимой очень уютный. Дорога хорошая, но парковки в центре могут быть заняты.",
+      "createdAt": "2026-01-09T09:05:00.000Z"
+    },
+    {
+      "id": "r8",
+      "routeId": "8",
+      "author": "Наташа",
+      "rating": 4,
+      "text": "Сочи—Поляна быстро и удобно. Летом круто съездить на канатку и погулять по тропам.",
+      "createdAt": "2026-01-09T10:30:00.000Z"
+    },
+    {
+      "id": "r9",
+      "routeId": "9",
+      "author": "Антон",
+      "rating": 4,
+      "text": "Куршская коса очень понравилась. В сезон были очереди на въезд, но впечатления того стоят.",
+      "createdAt": "2026-01-09T11:10:00.000Z"
+    }
+  ]
+}
