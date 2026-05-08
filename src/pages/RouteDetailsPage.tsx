@@ -40,7 +40,7 @@ import { SmartImage } from "../shared/ui/SmartImage";
 
 const reviewSchema = z.object({
   author: z.string().min(2, "Введите имя"),
-  rating: z.coerce.number().min(1).max(5),
+  rating: z.number().min(1).max(5),
   text: z.string().min(10, "Минимум 10 символов").max(400, "Максимум 400 символов")
 });
 
@@ -158,7 +158,6 @@ export function RouteDetailsPage() {
           <AspectRatio ratio={16 / 7}>
             <SmartImage
               src={route.coverImage || "https://picsum.photos/seed/roadtrip/1400/600"}
-              alt={route.title}
               fit="cover"
             />
           </AspectRatio>

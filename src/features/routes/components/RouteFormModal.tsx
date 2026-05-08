@@ -30,13 +30,13 @@ const routeFormSchema = z.object({
   title: z.string().min(3, "Введите название (минимум 3 символа)"),
   fromCity: z.string().min(2, "Укажите город отправления"),
   toCity: z.string().min(2, "Укажите город назначения"),
-  distanceKm: z.coerce.number().int().positive("Дистанция должна быть > 0"),
-  durationHours: z.coerce.number().positive("Время в пути должно быть > 0"),
+  distanceKm: z.number().int().positive("Дистанция должна быть > 0"),
+  durationHours: z.number().positive("Время в пути должно быть > 0"),
 
   seasons: z
     .array(z.enum(["summer", "winter"]))
     .min(1, "Выберите сезон (можно несколько)"),
-  sceneryScore: z.coerce.number().int().min(1).max(5),
+  sceneryScore: z.number().int().min(1).max(5),
   highlightsRaw: z.string().optional(),
 
   coverImage: z
@@ -190,7 +190,7 @@ export function RouteFormModal({
                   min={1}
                   {...field}
                   value={field.value}
-                  onChange={(v) => field.onChange(v)}
+                  onChange={(v) => field.onChange(typeof v === "number" ? v : undefined)}
                   error={errors.distanceKm?.message}
                 />
               )}
@@ -205,7 +205,7 @@ export function RouteFormModal({
                   step={0.5}
                   {...field}
                   value={field.value}
-                  onChange={(v) => field.onChange(v)}
+                  onChange={(v) => field.onChange(typeof v === "number" ? v : undefined)}
                   error={errors.durationHours?.message}
                 />
               )}
@@ -238,7 +238,7 @@ export function RouteFormModal({
                   max={5}
                   {...field}
                   value={field.value}
-                  onChange={(v) => field.onChange(v)}
+                  onChange={(v) => field.onChange(typeof v === "number" ? v : undefined)}
                   error={errors.sceneryScore?.message}
                 />
               )}
@@ -265,7 +265,7 @@ export function RouteFormModal({
             <Card withBorder radius="md" p="xs">
               <Card.Section>
                 <AspectRatio ratio={16 / 9}>
-                  <SmartImage src={coverPreview} alt="Превью обложки" fit="cover" />
+                  <SmartImage src={coverPreview} fit="cover" />
                 </AspectRatio>
               </Card.Section>
             </Card>

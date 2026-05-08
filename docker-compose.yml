@@ -1,0 +1,20 @@
+services:
+  api:
+    image: node:20-alpine
+    container_name: roadtrip-api
+    working_dir: /app
+    command: sh -c "npm ci && npx json-server --watch server/db.json --host 0.0.0.0 --port 3001"
+    volumes:
+      - ./:/app
+    ports:
+      - "3001:3001"
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: roadtrip-web
+    depends_on:
+      - api
+    ports:
+      - "8080:80"

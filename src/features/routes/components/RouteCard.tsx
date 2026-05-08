@@ -67,7 +67,6 @@ export function RouteCard({ route }: Props) {
         <AspectRatio ratio={16 / 9}>
           <SmartImage
             src={route.coverImage || "https://picsum.photos/seed/roadtrip/1200/675"}
-            alt={route.title}
             fit="cover"
           />
         </AspectRatio>

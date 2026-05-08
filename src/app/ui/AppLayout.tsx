@@ -1,4 +1,4 @@
-import { AppShell, Group, Anchor, Container } from "@mantine/core";
+import { AppShell, Group, Container } from "@mantine/core";
 import { NavLink, Outlet } from "react-router-dom";
 
 function navStyle({ isActive }: { isActive: boolean }) {
@@ -15,29 +15,27 @@ export function AppLayout() {
       <AppShell.Header>
         <Container h="100%" size="lg">
           <Group h="100%" justify="space-between">
-            <Anchor
-              component={NavLink}
+            <NavLink
               to="/"
-              fw={800}
-              underline="never"
               style={({ isActive }) => ({
                 ...navStyle({ isActive }),
-                letterSpacing: 0.2
+                letterSpacing: 0.2,
+                fontWeight: 800
               })}
             >
               RoadTrip Planner
-            </Anchor>
+            </NavLink>
 
             <Group gap="md">
-              <Anchor component={NavLink} to="/" style={navStyle} underline="never">
+              <NavLink to="/" style={navStyle}>
                 Главная
-              </Anchor>
-              <Anchor component={NavLink} to="/routes" style={navStyle} underline="never">
+              </NavLink>
+              <NavLink to="/routes" style={navStyle}>
                 Маршруты
-              </Anchor>
-              <Anchor component={NavLink} to="/manage" style={navStyle} underline="never">
+              </NavLink>
+              <NavLink to="/manage" style={navStyle}>
                 Управление
-              </Anchor>
+              </NavLink>
             </Group>
           </Group>
         </Container>
